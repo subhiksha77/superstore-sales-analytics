@@ -22,27 +22,6 @@ Turn transactional sales data into practical answers for business stakeholders:
 - **BI:** Power BI for interactive KPI reporting and dashboard exploration.
 - **Data source:** Excel workbook included under `data/raw/`.
 
-## Repository structure
-
-```text
-superstore-sales-analytics/
-├── README.md
-├── data/
-│   ├── README.md
-│   └── raw/
-│       └── superstore_sales_source.xlsx
-├── notebooks/
-│   └── superstore_sales_analysis.ipynb
-├── sql/
-│   └── superstore_sales_analysis.sql
-├── powerbi/
-│   ├── README.md
-│   └── sales_analysis_source_package.zip
-├── images/
-│   └── dashboard-overview.png   # add after exporting a dashboard screenshot
-└── docs/
-    └── data_dictionary.md
-```
 
 ## Dataset overview
 
@@ -52,7 +31,7 @@ Please see [`data/README.md`](data/README.md) for observed data-quality caveats.
 
 ## Analytical workflow
 
-1. **Inspect the source** — examine row/column counts, data types, date fields, missing values, and unusual headers.
+1. Inspect the source** — examine row/column counts, data types, date fields, missing values, and unusual headers.
 2. **Prepare the data** — validate data types, determine how blank return values should be interpreted, and exclude unusable fields only with a documented reason.
 3. **Analyze in Python** — summarize sales by category and region, monthly sales, profit distribution, top products by quantity, and sales-versus-profit patterns.
 4. **Answer business questions in SQL** — aggregate sales and profit by category, region, state, sub-category, customer, segment, product, month, shipping mode, and return status.
@@ -133,4 +112,3 @@ Never commit database passwords, API keys, or personal credentials. Configure da
 
 ## Author / attribution
 
-Add the student's preferred professional name, project date, and dataset source/license here before publishing. Do not claim ownership of a third-party dataset; cite the original source and its license/terms when known.

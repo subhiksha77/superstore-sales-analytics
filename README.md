@@ -31,7 +31,7 @@ Please see [`data/README.md`](data/README.md) for observed data-quality caveats.
 
 ## Analytical workflow
 
-1. Inspect the source** — examine row/column counts, data types, date fields, missing values, and unusual headers.
+1. **Inspect the source** — examine row/column counts, data types, date fields, missing values, and unusual headers.
 2. **Prepare the data** — validate data types, determine how blank return values should be interpreted, and exclude unusable fields only with a documented reason.
 3. **Analyze in Python** — summarize sales by category and region, monthly sales, profit distribution, top products by quantity, and sales-versus-profit patterns.
 4. **Answer business questions in SQL** — aggregate sales and profit by category, region, state, sub-category, customer, segment, product, month, shipping mode, and return status.

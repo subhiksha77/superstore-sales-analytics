@@ -2,8 +2,6 @@
 
 An end-to-end retail sales analytics portfolio project exploring sales performance, profitability, product mix, customer segments, geography, order trends, and shipping behavior using **MySQL, Python (Pandas/Matplotlib/Seaborn), and Power BI**.
 
-> **Project status:** Source materials have been organized. Validate the analysis and add the final Power BI `.pbix` file and dashboard preview before presenting this as a finished portfolio project.
-
 ## Business objective
 
 Turn transactional sales data into practical answers for business stakeholders:

@@ -18,7 +18,7 @@ Turn transactional sales data into practical answers for business stakeholders:
 - **SQL:** MySQL 8+ for aggregation, ranking, grouping, filtering, and business-question analysis.
 - **Python:** Pandas for data loading and grouping; Matplotlib/Seaborn for charts.
 - **BI:** Power BI for interactive KPI reporting and dashboard exploration.
-- **Data source:** Excel workbook included under `data/raw/`.
+- **Data source:** Excel workbook included under.
 
 
 ## Dataset overview
@@ -110,3 +110,5 @@ Never commit database passwords, API keys, or personal credentials. Configure da
 
 ## Author / attribution
 
+Subhiksha G 
+Aspiring a Data Analyst
